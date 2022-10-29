@@ -4,7 +4,7 @@ from bot import CMD_PERFIX
 class _BotCommands:
     def __init__(self):
         self.StartCommand = f'start{CMD_PERFIX}'
-        self.MirrorCommand = (f'mirror{CMD_PERFIX}', f'm{CMD_PERFIX}')
+        self.MirrorCommand = (f'mirror2{CMD_PERFIX}', f'm2{CMD_PERFIX}')
         self.UnzipMirrorCommand = (f'unzipmirror{CMD_PERFIX}', f'uzm{CMD_PERFIX}')
         self.ZipMirrorCommand = (f'zipmirror{CMD_PERFIX}', f'zm{CMD_PERFIX}')
         self.QbMirrorCommand = (f'qbmirror{CMD_PERFIX}', f'qm{CMD_PERFIX}')
@@ -12,7 +12,7 @@ class _BotCommands:
         self.QbZipMirrorCommand = (f'qbzipmirror{CMD_PERFIX}', f'qzm{CMD_PERFIX}')
         self.YtdlCommand = (f'ytdl{CMD_PERFIX}', f'y{CMD_PERFIX}')
         self.YtdlZipCommand = (f'ytdlzip{CMD_PERFIX}', f'yz{CMD_PERFIX}')
-        self.LeechCommand = (f'leech{CMD_PERFIX}', f'l{CMD_PERFIX}')
+        self.LeechCommand = (f'mirror{CMD_PERFIX}', f'l{CMD_PERFIX}')
         self.UnzipLeechCommand = (f'unzipleech{CMD_PERFIX}', f'uzl{CMD_PERFIX}')
         self.ZipLeechCommand = (f'zipleech{CMD_PERFIX}', f'zl{CMD_PERFIX}')
         self.QbLeechCommand = (f'qbleech{CMD_PERFIX}', f'ql{CMD_PERFIX}')
@@ -44,7 +44,7 @@ class _BotCommands:
         self.ClearLocalsCommand = f'clearlocals{CMD_PERFIX}'
         self.BotSetCommand = f'bsetting{CMD_PERFIX}'
         self.UserSetCommand = f'usetting{CMD_PERFIX}'
-        self.SetThumbCommand = f'setthumb{CMD_PERFIX}'
+        self.SetThumbCommand = (f'setthumb{CMD_PERFIX}', f's{CMD_PERFIX}')
         self.BtSelectCommand = f'btsel{CMD_PERFIX}'
         self.RssListCommand = (f'rsslist{CMD_PERFIX}', f'rl{CMD_PERFIX}')
         self.RssGetCommand = (f'rssget{CMD_PERFIX}', f'rg{CMD_PERFIX}')
